@@ -1,3 +1,5 @@
+currentBuild.displayName = "Online-Shopping-#"+currentBuild.number
+
 node{
 
     stage('SCM Checkout')
