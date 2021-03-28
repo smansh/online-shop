@@ -18,7 +18,7 @@ node{
      {
         sh "docker login -u smansh2018 -p ${dockerHubPwd}"
      }
-        sh 'docker push smansh2018/phpmysql_app'
+        sh 'docker push smansh2018/sample-devops-project-online-shopping_web'
                   
 }
 }
