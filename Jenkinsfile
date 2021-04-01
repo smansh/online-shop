@@ -18,7 +18,7 @@ node{
      {
         sh "docker login -u smansh2018 -p ${dockerHubPwd}"
      }
-        sh 'docker tag sample-devops-project-online-shopping_web:latest smansh2018/sample-devops-project-online-shopping_web:latest'
+        sh 'docker tag sample-devops-project-online-shopping_web:latest smansh2018/sample-devops-project-online-shopping_web'
         sh 'docker push smansh2018/sample-devops-project-online-shopping_web'
                   
 }
